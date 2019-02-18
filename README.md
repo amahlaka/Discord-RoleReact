@@ -49,7 +49,6 @@ Optional:
 
 - Modify initialMessage to display a custom initial message.
 
-
 ## Support
 
 I hope you find this bot useful. If you need help or find any bugs, use the appropriate forums in this repository to contact me.
