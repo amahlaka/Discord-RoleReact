@@ -2,11 +2,11 @@
 const yourID = "99606954992734208"; //Instructions on how to get this: https://redd.it/40zgse
 const setupCMD = "!createrolemessage"
 let initialMessage = `**React to the messages below to receive the associated role. If you would like to remove the role, simply remove your reaction!**`;
-const roles = ["Python","C#","Tech Support","Programming","PC building","Windows","Linux","MacOS","Android","iOS","Security"];
-const reactions = ["547111976015495169","547111339768676383","547111976795635742","547111338871357463","547111975990067260","547111339311497223","547111338913038342","547111339123015681","547111976019689473","547111339181604884","547111339353571365"];
+const roles = ["Python","C#","Programming","PC building","Windows","Linux","MacOS","Android","iOS","Security"];
+const reactions = ["547111976015495169","547111339768676383","547111338871357463","547111975990067260","547111339311497223","547111338913038342","547111339123015681","547111976019689473","547111339181604884","547111339353571365"];
 const botToken = "NTQ3MDg5MDgyNzc0NDU0Mjky.D0xsIA.iDGKTGWkrgfAWjjJwQt_fSMj_eQ"; /*You'll have to set this yourself; read more
                      here https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token*/
-
+console.log("STARTING")
 //Load up the bot...
 const Discord = require('discord.js');
 const bot = new Discord.Client();
@@ -66,3 +66,4 @@ bot.on('raw', event => {
  
     }   
 });
+require('http').createServer().listen(3000)

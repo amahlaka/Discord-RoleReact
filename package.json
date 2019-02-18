@@ -1,0 +1,24 @@
+{
+  "name": "discord-rolereact",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "roleReact.js",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "dotenv": "^6.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amahlaka/Discord-RoleReact.git"
+  },
+  "author": "amahlaka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amahlaka/Discord-RoleReact/issues"
+  },
+  "homepage": "https://github.com/amahlaka/Discord-RoleReact#readme"
+}
